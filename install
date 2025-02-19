@@ -2,12 +2,6 @@
 mkdir bin
 chmod +x *
 export MAIN_DIR=$PWD
-echo "> Which Server do you want to install?"
-echo "Type [1] Java Server"
-echo "Type [2] Bedrock Server"
-
-choiceForServer=1
-read choiceForServer
 
 # Installing Java 21 JDK
 
